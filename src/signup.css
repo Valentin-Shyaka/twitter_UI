@@ -1,0 +1,122 @@
+.signup{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    color: var(--color) !important;
+    
+    
+
+}
+.signup>.main2{
+    width: 50%;
+    height: 90vh;
+    background-color:var(--div);
+    box-shadow: var(--shadow) 0px 5px 15px;
+    display: block;
+    border-radius: 20px;
+    color: var(--color);
+    justify-content: center;
+    padding: 20px 30px 20px 30px;
+    
+
+    
+}
+.signup-twitter-icon{
+    position: relative;
+    color: var(--twitter-color) !important;
+    font-size: 60px !important;
+    top: 10px !important;
+    
+}
+.signup>.main2>.headers{
+    position: relative;
+    
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-bottom: 20px;
+    
+    
+}
+.signup-header-btn{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 80px !important;
+    height: 40px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+    margin-right: 20px !important;
+    float: right;
+}
+.main2>h2{
+    font-weight: 800;
+    font-size: 2em;
+    margin-top: 60px;
+
+
+}
+.main2>span{
+    position: relative;
+    top: 35px;
+    color: var(--twitter-color);
+    font-size: 1.2em;
+    font-weight: 500;
+   
+    
+}
+.main2>h3{
+    position: relative;
+    top: 60px;
+}
+.main2>p{
+    position: relative;
+    top: 70px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: grey;
+}
+.select{
+    position: relative;
+    top: 100px;
+    display: flex;
+    width: 100%;
+}
+.filled-select-currency{
+    margin-left: 20px !important;
+    background-color: var(--twitter-background) !important;
+    color: var(--color) !important;
+    
+    width: 150px !important;
+}
+.signup-btn{
+    position: relative;
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 120px !important;
+    height: 40px !important;
+    margin-top: 120px !important;
+    margin-left: auto !important;
+    margin-right: 20px !important;
+    float: right;
+
+}
+.headers>.signup-dark-btn{
+    float: left;
+    margin-top: 10px;
+    color: var(--twitter-color) !important;
+}
+.input{
+    background-color: var(--twitter-background) !important;
+    color: var(--color) !important;
+}

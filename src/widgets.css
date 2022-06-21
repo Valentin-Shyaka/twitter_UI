@@ -1,0 +1,43 @@
+.widgets{
+    flex: 0.3;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.widgets::-webkit-scrollbar{
+    display: none;
+}
+.widgets-input{
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.widgets-input > input{
+    border: none;
+    background-color: var(--twitter-background);
+    outline: none;
+    color: var(--color);
+}
+.widgets-searchIcon{
+    color: gray;
+}
+.widgets-container{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: var(--twitter-background);
+    border-radius: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.widget-inside{
+    background-color: var(--twitter-background);
+}
+.widgets-container::-webkit-scrollbar{
+    display: none;
+
+}

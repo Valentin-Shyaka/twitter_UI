@@ -1,0 +1,66 @@
+.usercard{
+    background-color: var(--div);
+    width: 250px;
+    display: none;
+    border-radius: 20px;
+    
+    position:relative;
+    top: 70px;
+    padding: 10px 10px 10px 10px ;
+    z-index: 999;
+    
+
+}
+.usercard-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.usercard-header-avatar{
+    width: 40px !important;
+    height: 40px !important;
+    
+}
+.usercard-header-btn{
+    background-color: var(--follow) !important;
+    color: var(--div) !important ;
+    border-radius: 30px !important;
+    float: right !important;
+    font-size: 0.6em !important;
+    font-weight: 600 !important;
+    height: 30px !important;
+}
+.usercard>span{
+    color: gray;
+}
+.visibility-status{
+    display: flex;
+    justify-content: space-between;
+}
+.visibility-status{
+    color: grey;
+    margin-bottom: 10px;
+    
+}
+.visibility-status>p>span{
+    color: var(--color);
+    font-weight: 600;
+
+}
+.usercard>.footer{
+    color: grey;
+    display: flex;
+    
+}
+.usercard>p{
+    margin-bottom: 10px;
+}
+.footer-avatar{
+    width: 25px !important;
+    height: 25px !important;
+
+}
+.footer>p{
+    margin-left: 10px;
+    font-size: 0.9em;
+}
